@@ -1,0 +1,24 @@
+name: Set Secret manager Secrets
+description: Sets Google Secret manager secrets in the environment.
+author: Jens Skott <jens.skott@thoughtgears.co.uk>
+
+# Add your action's branding here. This will appear on the GitHub Marketplace.
+branding:
+  icon: heart
+  color: red
+
+inputs:
+  project_id:
+    description: The project to create or update the secret in.
+    required: true
+  secrets:
+    description: A comma separated list of <key=value> pairs to set as secrets.
+    required: true
+
+outputs:
+  updated_secrets:
+    description: The list of updated secrets.
+
+runs:
+  using: node20
+  main: dist/index.js
