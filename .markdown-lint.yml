@@ -20,6 +20,3 @@ MD030:
 # Code block style
 MD046:
   style: fenced
-
-# README starts with action-docs markers and a generated "## Description"
-MD041: false

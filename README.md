@@ -1,3 +1,5 @@
+# Set Secret Manager secrets
+
 <!-- action-docs-header source="action.yml" -->
 
 <!-- action-docs-header source="action.yml" -->
